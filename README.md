@@ -4,6 +4,14 @@ A clean and up-to-date OpenCV project for detecting **any ArUco marker size**
 (4×4, 5×5, 6×6, 7×7, ArUco Original, AprilTags) and estimating their **3D pose**
 using a live camera feed.
 
+
+ 🎯 Motivation
+
+Many existing ArUco projects rely on deprecated OpenCV APIs that no longer work.
+This repository provides a clean, modern, and future-proof reference
+using the latest OpenCV ArUco interface.
+
+
 This repository uses the **latest OpenCV ArUco API (OpenCV ≥ 4.7)** and avoids
 deprecated functions.
 
