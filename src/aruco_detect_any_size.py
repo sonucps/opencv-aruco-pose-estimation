@@ -1,7 +1,7 @@
 import cv2
 import cv2.aruco as aruco
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) # for taking the live video from the camera
 
 ARUCO_DICTS = {
     "DICT_4X4_50": aruco.DICT_4X4_50,
